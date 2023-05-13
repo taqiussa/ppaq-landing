@@ -163,7 +163,7 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle heading="Want to work with us?">
+          {/* <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
           <form className="mx-auto mt-12 max-w-3xl text-center">
@@ -175,7 +175,7 @@ export function Home() {
             <Button variant="gradient" size="lg" className="mt-8">
               Send Message
             </Button>
-          </form>
+          </form> */}
         </div>
       </section>
       <div className="bg-blue-gray-50/50">

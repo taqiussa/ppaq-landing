@@ -79,14 +79,14 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Material Tailwind",
+  title: "SMP Al Musyaffa",
   description:
-    "Easy to use React components for Tailwind CSS and Material Design.",
+    "SMP Al Musyaffa merupakan sekolah berbasis pesantren di bawah naungan Pondok Pesantren Al Musyaffa",
   socials: [
     {
       color: "blue",
       name: "facebook",
-      path: "https://www.facebook.com/CreativeTim",
+      path: "https://www.facebook.com/profile.php?id=100057128814679",
     },
     {
       color: "light-blue",
@@ -96,40 +96,35 @@ Footer.defaultProps = {
     {
       color: "purple",
       name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
+      path: "https://www.instagram.com/smp_almusyaffa/",
     },
-    {
-      color: "pink",
-      name: "dribbble",
-      path: "https://www.dribbble.com/creativetim",
-    },
+    // {
+    //   color: "pink",
+    //   name: "dribbble",
+    //   path: "https://www.dribbble.com/creativetim",
+    // },
     {
       color: "red",
       name: "youtube",
-      path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    },
-    {
-      color: "black",
-      name: "github",
-      path: "https://github.com/creativetimofficial/material-tailwind",
+      path: "https://www.youtube.com/@SMPAlMusyaffaKendal",
     },
   ],
   menus: [
-    {
-      name: "useful links",
-      items: [
-        { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
-        {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
-        },
-        {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
-        },
-      ],
-    },
+    // {
+    //   name: "useful links",
+    //   items: [
+    //     { name: "About Us", path: "https://www.creative-tim.com/presentation" },
+    //     { name: "Blog", path: "https://www.creative-tim.com/blog" },
+    //     {
+    //       name: "Github",
+    //       path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+    //     },
+    //     {
+    //       name: "Free Products",
+    //       path: "https://www.creative-tim.com/templates/free?ref=mtk",
+    //     },
+    //   ],
+    // },
     {
       name: "other resources",
       items: [
@@ -154,15 +149,31 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Copyright © {year} Material Tailwind by{" "}
-      <a
-        href="https://www.creative-tim.com?ref=mtk"
-        target="_blank"
-        className="text-blue-gray-500 transition-colors hover:text-blue-500"
-      >
-        Creative Tim
-      </a>
-      .
+      <div className="flex justify-between">
+        <div>
+          Copyright © {year} Material Tailwind by{" "}
+          <a
+            href="https://www.creative-tim.com?ref=mtk"
+            target="_blank"
+            className="text-blue-gray-500 transition-colors hover:text-blue-500"
+          >
+            Creative Tim
+          </a>
+          .
+        </div>
+        <div>
+          Copyright © {year} SMP Al Musyaffa oleh{" "}
+          <a
+            href="https://smpalmusyaffa.com"
+            target="_blank"
+            className="text-blue-gray-500 transition-colors hover:text-blue-500"
+          >
+            Kendali Koding
+          </a>
+          .
+        </div>
+
+      </div>
     </>
   ),
 };
