@@ -13,6 +13,7 @@ function App() {
           ({ path, element }, key) =>
             element && <Route key={key} exact path={path} element={element} />
         )}
+        <Route exact path="/login" element={<Navigate to="https://siakad.smpalmusyaffa.com/" replace />} />
         <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
     </>
