@@ -108,7 +108,6 @@ Navbar.defaultProps = {
   action: (
     <a
       href="https://siakad.smpalmusyaffa.com"
-      target="_blank"
     >
       <Button variant="gradient" size="sm" fullWidth>
         siakad
