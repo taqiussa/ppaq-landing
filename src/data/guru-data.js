@@ -14,6 +14,13 @@ export const guruData = [
     ],
   },
   {
+    img: "/img/eka.jpeg",
+    name: "Eka Anjarsari,M.Pd.Gr.",
+    position: "Waka. Kurikulum & Guru Mapel IPS",
+    socials: [
+    ],
+  },
+  {
     img: "/img/ris.jpeg",
     name: "Ristiyono,S.Pd.Gr.",
     position: "Waka. Kesiswaan & Guru Mapel IPS",
