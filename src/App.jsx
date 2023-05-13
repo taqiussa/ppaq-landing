@@ -13,11 +13,16 @@ function App() {
           ({ path, element }, key) =>
             element && <Route key={key} exact path={path} element={element} />
         )}
-        <Route exact path="/login" element={<Navigate to="https://siakad.smpalmusyaffa.com/" replace />} />
-        {/* <Route path="*" element={<Navigate to="/home" replace />} /> */}
+        <Route exact path="/login" element={<External />} />
+        <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
     </>
   );
+
+  function External() {
+    window.location.href = 'https://siakad.smpalmusyaffa.com/';
+    return null;
+  }
 }
 
 export default App;
