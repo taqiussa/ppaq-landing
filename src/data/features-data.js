@@ -6,25 +6,25 @@ import {
 
 export const featuresData = [
   {
-    color: "indigo",
-    title: "Berilmu",
-    icon: AcademicCapIcon,
-    description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
-  },
-  {
     color: "orange",
     title: "Religius",
     icon: StarIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Menghasilkan lulusan yang menguasai ilmu agama, pengetahuan dan teknologi untuk mempersiapkan arus globalisasi.",
+  },
+  {
+    color: "blue",
+    title: "Berakhlak",
+    icon: AcademicCapIcon,
+    description:
+      "Menghasilkan lulusan yang tekun beribadah, jujur, disiplin, tanggung jawab, percaya diri dan berakhlaqul karimah.",
   },
   {
     color: "teal",
     title: "Berprestasi",
     icon: TrophyIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Menghasilkan lulusan yang berprestasi sesuai dengan bakat, minat dan kemampuan masing-masing.",
   },
 ];
 
