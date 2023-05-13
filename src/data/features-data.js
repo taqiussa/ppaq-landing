@@ -6,7 +6,7 @@ import {
 
 export const featuresData = [
   {
-    color: "blue",
+    color: "indigo",
     title: "Berilmu",
     icon: AcademicCapIcon,
     description:
