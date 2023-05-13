@@ -26,11 +26,11 @@ export function Home() {
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-6 font-black"
+                className="mb-6 font-black text-3xl lg:text-5xl"
               >
-                SMP Al Musyaffa Kendal
+                SMP AL MUSYAFFA
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
+              <Typography variant="lead" color="white" className="opacity-80 text-lg lg:text-2xl">
                 “Membentuk Pelajar yang Berilmu, Religius dan Berprestasi”
               </Typography>
             </div>
