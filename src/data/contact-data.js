@@ -2,26 +2,56 @@ import {
   StarIcon,
   PresentationChartLineIcon,
   RocketLaunchIcon,
+  BuildingLibraryIcon,
+  BuildingOffice2Icon,
+  UserGroupIcon,
+  UserCircleIcon,
+  PresentationChartBarIcon,
+  ListBulletIcon,
 } from "@heroicons/react/24/solid";
 
 export const contactData = [
   {
-    title: "Excelent Services",
-    icon: StarIcon,
+    title: "Gedung Sekolah",
+    icon: BuildingLibraryIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Gedung Sekolah lantai 3 komplit dengan prasarana kelas sesuai kebutuhan KBM peserta didik",
   },
   {
-    title: "Grow Your Market",
-    icon: PresentationChartLineIcon,
+    title: "Laboratorium",
+    icon: BuildingOffice2Icon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Memiliki 2 buah Laboratorium komputer , dan lab. IPA untuk menunjang kegiatan praktik peserta didik.",
   },
   {
-    title: "Launch Time",
-    icon: RocketLaunchIcon,
+    title: "Ekstrakurikuler",
+    icon: UserGroupIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Memiliki banyak kegiatan ekstrakurikuler di antaranya : Club Bahasa Arab, Club Computer, Kaligrafi, KIR, Pramuka, Sepak Bola, Sepak Takraw, Tartil, Tahfidz, Tilawah, dan Voli  ",
+  },
+  {
+    title: "Guru Kompeten",
+    icon: UserCircleIcon,
+    description:
+      "Guru dan tenaga pendidik merupakan individu pilihan yang di telah di uji dan kompeten di bidang nya",
+  },
+  {
+    title: "Guru Al Qur'an",
+    icon: UserCircleIcon,
+    description:
+      "Guru Al Qur'an merupakan tahfidz lulusan pondok pesantren yang berpengalaman",
+  },
+  {
+    title: "Sarana Prasarana",
+    icon: PresentationChartBarIcon,
+    description:
+      "Kegiatan KBM didukung dengan sarana prasarana menggunakan LCD Proyektor",
+  },
+  {
+    title: "Beasiswa",
+    icon: ListBulletIcon,
+    description:
+      "Mendukung beasiswa bagi siswa berprestasi bidang akademik dan non-akademik, serta beasiswa bagi yatim piatu",
   },
 ];
 

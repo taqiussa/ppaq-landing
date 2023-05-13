@@ -16,29 +16,29 @@ export const routes = [
   },
   {
     icon: UserCircleIcon,
-    name: "profile",
+    name: "profile guru",
     path: "/profile",
     element: <Profile />,
   },
-  {
-    icon: ArrowRightOnRectangleIcon,
-    name: "Sign In",
-    path: "/sign-in",
-    element: <SignIn />,
-  },
-  {
-    icon: UserPlusIcon,
-    name: "Sign Up",
-    path: "/sign-up",
-    element: <SignUp />,
-  },
-  {
-    icon: DocumentTextIcon,
-    name: "Docs",
-    href: "https://www.material-tailwind.com/docs/react/installation",
-    target: "_blank",
-    element: "",
-  },
+  // {
+  //   icon: ArrowRightOnRectangleIcon,
+  //   name: "Sign In",
+  //   path: "/sign-in",
+  //   element: <SignIn />,
+  // },
+  // {
+  //   icon: UserPlusIcon,
+  //   name: "Sign Up",
+  //   path: "/sign-up",
+  //   element: <SignUp />,
+  // },
+  // {
+  //   icon: DocumentTextIcon,
+  //   name: "Docs",
+  //   href: "https://www.material-tailwind.com/docs/react/installation",
+  //   target: "_blank",
+  //   element: "",
+  // },
 ];
 
 export default routes;
