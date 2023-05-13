@@ -8,6 +8,7 @@ import {
   UserCircleIcon,
   PresentationChartBarIcon,
   ListBulletIcon,
+  ComputerDesktopIcon,
 } from "@heroicons/react/24/solid";
 
 export const contactData = [
@@ -52,6 +53,12 @@ export const contactData = [
     icon: ListBulletIcon,
     description:
       "Mendukung beasiswa bagi siswa berprestasi bidang akademik dan non-akademik, serta beasiswa bagi yatim piatu",
+  },
+  {
+    title: "Sistem Informasi Akademik",
+    icon: ComputerDesktopIcon,
+    description:
+      "Menggunakan Sistem Informasi Akademik (SiAkad) online yang dapat di akses oleh wali murid. berisi tentang penilaian beserta data administrasi siswa",
   },
 ];
 

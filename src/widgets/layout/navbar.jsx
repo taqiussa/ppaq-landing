@@ -104,7 +104,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "SMP Al Musyaffa",
+  brandName: "SMP AL MUSYAFFA",
   action: (
     <a
       href="https://siakad.smpalmusyaffa.com"
