@@ -17,7 +17,7 @@ export const routes = [
   {
     icon: UserCircleIcon,
     name: "profile guru",
-    path: "/profile",
+    path: "/profile-guru",
     element: <Profile />,
   },
   // {
