@@ -9,7 +9,7 @@ export function GuruCard({ img, name, position, socials }) {
                 alt={name}
                 size="lg"
                 variant="circular"
-                className="h-1/3 w-1/3 object-cover object-top shadow-lg shadow-gray-500/25"
+                className="h-[100px] w-[100px] object-cover object-top shadow-lg shadow-gray-500/25"
             />
             <Typography variant="h5" color="blue-gray" className="mt-6 mb-1">
                 {name}

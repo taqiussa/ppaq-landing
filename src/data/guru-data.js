@@ -140,8 +140,8 @@ export const guruData = [
     ],
   },
   {
-    img: "/img/mukhid.jpeg",
-    name: "Abdul Mukhid,S.Pd.",
+    img: "/img/april.jpeg",
+    name: "Dwi Sura Aprilia,S.Pd.",
     position: "Guru Mapel Bahasa Inggris",
     socials: [
     ],
@@ -282,20 +282,6 @@ export const guruData = [
   {
     img: "/img/isyfaq.jpeg",
     name: "Isyfaq Hidayat",
-    position: "Guru Al Qur'an",
-    socials: [
-    ],
-  },
-  {
-    img: "/img/subiyat.jpeg",
-    name: "Subiyat,S.Pd.",
-    position: "Guru Al Qur'an",
-    socials: [
-    ],
-  },
-  {
-    img: "/img/subiyat.jpeg",
-    name: "Subiyat,S.Pd.",
     position: "Guru Al Qur'an",
     socials: [
     ],
