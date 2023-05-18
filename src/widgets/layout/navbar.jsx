@@ -63,10 +63,15 @@ export function Navbar({ brandName, routes, action }) {
   return (
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
-        <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            {brandName}
-          </Typography>
+        <Link to="/" className="flex justify-between items-center">
+          <div>
+            <img src="/img/logoalfa2.png" className="w-9 h-9" />
+          </div>
+          <div>
+            <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
+              {brandName}
+            </Typography>
+          </div>
         </Link>
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
