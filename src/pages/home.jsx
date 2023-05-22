@@ -18,7 +18,7 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('/img/gedungdepan.jpeg')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('/img/gedungputri.jpeg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -28,10 +28,10 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black text-3xl lg:text-5xl"
               >
-                SMP AL MUSYAFFA
+                PONPES ALQUR'AANNIYAH
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80 text-lg lg:text-2xl">
-                “Membentuk Pelajar yang Religius, Berakhlak , dan Berprestasi”
+              <Typography variant="lead" color="white" className="opacity-80 text-sm lg:text-2xl capitalize">
+                penanggulan rt 03 rw 01 - pegandon - kendal - jawa tengah
               </Typography>
             </div>
           </div>
@@ -39,42 +39,55 @@ export function Home() {
       </div>
       <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map(({ color, title, icon, description }) => (
-              <FeatureCard
-                key={title}
-                color={color}
-                title={title}
-                icon={React.createElement(icon, {
-                  className: "w-5 h-5 text-white",
-                })}
-                description={description}
-              />
-            ))}
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+            <Card className="shadow-lg shadow-gray-500/10">
+              <CardHeader className="relative h-56">
+                <img
+                  alt="Card Image"
+                  src="/img/ghozali2.png"
+                  className="h-full w-full object-cover"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography
+                  variant="h5"
+                  color="blue-gray"
+                  className="mb-3 font-bold"
+                >
+                  K.H. Muhammad Ghozali
+                </Typography>
+                <Typography className="font-normal text-blue-gray-500">
+                </Typography>
+              </CardBody>
+            </Card>
+            <Card className="shadow-lg shadow-gray-500/10">
+              <CardHeader className="relative h-56">
+                <img
+                  alt="Card Image"
+                  src="/img/abdul.jpeg"
+                  className="h-full w-full object-cover object-top"
+                />
+              </CardHeader>
+              <CardBody>
+                <Typography
+                  variant="h5"
+                  color="blue-gray"
+                  className="mb-3 font-bold"
+                >
+                  Kyai Abdul Qodir
+                </Typography>
+                <Typography className="font-normal text-blue-gray-500">
+                </Typography>
+              </CardBody>
+            </Card>
           </div>
           <div className="mt-32 flex flex-wrap items-center">
-            <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
-              <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
-                <UsersIcon className="h-6 w-6 text-blue-gray-900" />
-              </div>
-              <Typography
-                variant="h3"
-                className="mb-3 font-bold"
-                color="blue-gray"
-              >
-                Mari Gabung Bersama Kami
-              </Typography>
-              <Typography className="mb-8 font-normal text-blue-gray-500">
-                SMP Al Musyaffa merupakan salah satu sekolah yang mempunyai ciri khas keislaman sehingga sangat penting untuk memprioritaskan penanaman akhlaq mulia kepada seluruh peserta didiknya. Bernaung di bawah Yayasan Al Musyaffa yang tradisi dan kebiasaan masyarakatnya sangat kental dengan nilai-nilai agama maka dengan keberadaan SMP Al Musyaffa diharapkan mampu meningkatkan pengetahuan dan keterampilan peserta didik di bidang ilmu pengetahuan, teknologi, dan seni guna menjawab permasalahan global yang selalu berkembang
-              </Typography>
-              {/* <Button variant="outlined">read more</Button> */}
-            </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/kyai.jpg"
+                    src="/img/ghozali2.png"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -84,10 +97,34 @@ export function Home() {
                     color="blue-gray"
                     className="mb-3 font-bold"
                   >
-                    K.H. Muchlis Musyaffa'
+                    K.H. Muhammad Ghozali
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                  KH. Muchlis Musyaffa’ lahir di Kendal 09 Juni 1956, tepatnya di sebuah dukuh kecil bernama Kampir, Desa Sudipayung, Kecamatan Ngampel. Beliau lahir di lingkungan keluarga pesantren yang lekat dan ketat dengan penguasaan disiplin ilmu-ilmu agama. Orang tua beliau adalah pasangan Kyai Musyaffa’ pengasuh pondok pesantren Tarbiyatul Mubtadi’in, putra Kyai Umar pendiri Masjid Kampir dan Nyai Hj. Richaniyah, putri KH. Abdul Wahab bin Abdullah, pengasuh pondok pesantren Gubugsari, Pegandon.
+                    Keterangan
+                  </Typography>
+                </CardBody>
+              </Card>
+            </div>
+            <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
+              <Card className="shadow-lg shadow-gray-500/10">
+                <CardHeader className="relative h-56">
+                  <img
+                    alt="Card Image"
+                    src="/img/abdul.jpeg"
+                    className="h-full w-full"
+                  />
+                </CardHeader>
+                <CardBody>
+                  <Typography
+                    variant="h5"
+                    color="blue-gray"
+                    className="mb-3 font-bold"
+                  >
+                    Kyai Abdul Qodir
+                  </Typography>
+                  <Typography className="font-normal text-blue-gray-500">
+                    Keterangan
+
                   </Typography>
                 </CardBody>
               </Card>
