@@ -14,12 +14,12 @@ export const routes = [
     path: "/home",
     element: <Home />,
   },
-  {
-    icon: UserCircleIcon,
-    name: "profile guru",
-    path: "/profile-guru",
-    element: <Profile />,
-  },
+  // {
+  //   icon: UserCircleIcon,
+  //   name: "profile guru",
+  //   path: "/profile-guru",
+  //   element: <Profile />,
+  // },
   // {
   //   icon: ArrowRightOnRectangleIcon,
   //   name: "Sign In",

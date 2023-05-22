@@ -13,16 +13,10 @@ import {
 
 export const contactData = [
   {
-    title: "Gedung Sekolah",
+    title: "Gedung Pesantren",
     icon: BuildingLibraryIcon,
     description:
-      "Gedung Sekolah lantai 3 komplit dengan prasarana kelas sesuai kebutuhan KBM peserta didik",
-  },
-  {
-    title: "Laboratorium",
-    icon: BuildingOffice2Icon,
-    description:
-      "Memiliki 2 buah Laboratorium komputer , dan lab. IPA untuk menunjang kegiatan praktik peserta didik.",
+      "Gedung Pesantren terpisah antara santri putra dan santri putri",
   },
   {
     title: "Ekstrakurikuler",
@@ -55,10 +49,10 @@ export const contactData = [
       "Mendukung beasiswa bagi siswa berprestasi bidang akademik dan non-akademik, serta beasiswa bagi yatim piatu",
   },
   {
-    title: "Sistem Informasi Akademik",
+    title: "Sistem Informasi Ponpes",
     icon: ComputerDesktopIcon,
     description:
-      "Menggunakan Sistem Informasi Akademik (SiAkad) online yang dapat di akses oleh wali murid. berisi tentang penilaian beserta data administrasi siswa",
+      "Menggunakan Sistem Informasi Ponpes (Si Potren) online yang dapat di akses oleh wali santri. berisi tentang penilaian beserta data administrasi santri",
   },
 ];
 

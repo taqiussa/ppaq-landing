@@ -65,7 +65,7 @@ export function Navbar({ brandName, routes, action }) {
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/" className="flex justify-between items-center">
           <div>
-            <img src="/img/logoalfa2.png" className="w-9 h-9" />
+            <img src="/img/logo.png" className="w-9 h-9" />
           </div>
           <div>
             <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
@@ -109,13 +109,13 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "SMP AL MUSYAFFA",
+  brandName: "PP AL QUR'AANNIYAH",
   action: (
     <a
-      href="https://siakad.smpalmusyaffa.com"
+      href="https://sipotren.ppaqpegandon.com"
     >
       <Button variant="gradient" size="sm" fullWidth>
-        siakad
+        si potren
       </Button>
     </a>
   ),

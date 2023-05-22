@@ -79,35 +79,35 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "SMP Al Musyaffa",
+  title: "Pondok Pesantren Al Qur'aannyiah",
   description:
-    "SMP Al Musyaffa merupakan sekolah berbasis pesantren di bawah naungan Pondok Pesantren Al Musyaffa",
+    "Pondok Pesantren Al Qur'aannyiah merupakan Pondok Pesantren tahfidz Al Qur'an yang berada di desa Penanggulan , Kecamatan Pegandon kabupaten Kendal",
   socials: [
-    {
-      color: "blue",
-      name: "facebook",
-      path: "https://www.facebook.com/profile.php?id=100057128814679",
-    },
-    {
-      color: "light-blue",
-      name: "twitter",
-      path: "https://www.twitter.com/creativetim",
-    },
-    {
-      color: "purple",
-      name: "instagram",
-      path: "https://www.instagram.com/smp_almusyaffa/",
-    },
+    // {
+    //   color: "blue",
+    //   name: "facebook",
+    //   path: "https://www.facebook.com/profile.php?id=100057128814679",
+    // },
+    // {
+    //   color: "light-blue",
+    //   name: "twitter",
+    //   path: "https://www.twitter.com/creativetim",
+    // },
+    // {
+    //   color: "purple",
+    //   name: "instagram",
+    //   path: "https://www.instagram.com/smp_almusyaffa/",
+    // },
     // {
     //   color: "pink",
     //   name: "dribbble",
     //   path: "https://www.dribbble.com/creativetim",
     // },
-    {
-      color: "red",
-      name: "youtube",
-      path: "https://www.youtube.com/@SMPAlMusyaffaKendal",
-    },
+    // {
+    //   color: "red",
+    //   name: "youtube",
+    //   path: "https://www.youtube.com/@SMPAlMusyaffaKendal",
+    // },
   ],
   menus: [
     // {
@@ -159,7 +159,7 @@ Footer.defaultProps = {
           >
             Creative Tim
           </a>
-          . | SMP Al Musyaffa | Kendali Koding
+          . | PP Al Qur'aanniyah | Kendali Koding
         </div>
       </div>
       <div className="lg:flex lg:justify-between hidden">
@@ -175,7 +175,7 @@ Footer.defaultProps = {
           .
         </div>
         <div>
-          Copyright © {year} SMP Al Musyaffa oleh{" "}
+          Copyright © {year} PP Al Qur'aanniyah oleh{" "}
           <a
             href="https://smpalmusyaffa.com"
             target="_blank"

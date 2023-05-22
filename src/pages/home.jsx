@@ -134,8 +134,8 @@ export function Home() {
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle heading="Kegiatan Sekolah">
-            Berbagai macam kegiatan sekolah dan pondok yang ada di lingkungan SMP Al Musyaffa.
+          <PageTitle heading="Kegiatan Pondok">
+            Berbagai macam kegiatan pondok yang ada di lingkungan Pondok Pesantren Al Qur'aannyiah.
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
@@ -160,8 +160,8 @@ export function Home() {
       </section>
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle heading="Fasilitas Sekolah">
-            Beberapa fasilitas yang ada di SMP Al Musyaffa dengan beberapa sarana dan prasana sekolah.
+          <PageTitle heading="Fasilitas Pesantren">
+            Beberapa fasilitas yang ada di Pondok Pesantren Al Qur'aannyiah dengan beberapa sarana dan prasana.
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
