@@ -20,7 +20,7 @@ function App() {
   );
 
   function External() {
-    window.location.href = 'https://siakad.smpalmusyaffa.com/';
+    window.location.href = 'https://sipotren.ppaqpegandon.com/';
     return null;
   }
 }
